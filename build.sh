@@ -1,5 +1,5 @@
 FTP_HOST='oplab9.parqtec.unicamp.br'
-LOCALPATH=$TRAVIS_BUILD_DIR/Masterminds/glide
+LOCALPATH=$GOPATH/src/github.com/Masterminds/glide
 REMOTEPATH='/ppc64el/glide'
 ROOTPATH="~/rpmbuild/RPMS/ppc64le"
 REPO1="/repository/debian/ppc64el/glide"
